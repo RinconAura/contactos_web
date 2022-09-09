@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Mis contactos</title>
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/formulario.css">
+    </head>
+    <body>
+        <div class="contentPage">
+            <div class="contentTitulo">
+                <h1>Mis contactos</h1>
+            </div>
+            <div class="contentBtnRegistar">
+                <button class="btnRegistrar">Registrar</button>
+            </div>
+            <div class="contentListaContactos">
+                <table class="tableLista">
+                    <thead>
+                        <tr>
+                            <th>No.</th>
+                            <th>Nombre</th>
+                            <th>Email</th>
+                            <th>Telefono</th>
+                            <th>Modificar</th>
+                            <th>Eliminar</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Maria Camila Gomez</td>
+                            <td>mcamila@ejemplo.com</td>
+                            <td>123456</td>
+                            <td>
+                                <button class="btnModificar">M</button>
+                            </td>
+                            <td>
+                                <button class="btnEliminar">E</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="contentModal">
+            <div class="contentFormulario">
+                <div class="btnCerrarModal">
+                    <button class="btnCerrar">X</button>
+                </div>
+                <form action="">
+                    <div class="tituloFormulario">
+                        <h2>Registrar</h2>
+                    </div>
+                    <div class="controlInput">
+                        <label for="">Nombre:</label>
+                        <input id="nombre" type="nombre" name="nombre" required>
+                    </div>
+                    <div class="controlInput">
+                        <label for="">Email:</label>
+                        <input id="email" type="email" name="email" required>
+                    </div>
+                    <div class="controlInput">
+                        <label for="">Telefono:</label>
+                        <input  id="telefono" type="telefono" name="telefono" required>
+                    </div>
+                    <div class="controlBtns">
+                        <button type="submit" class="btnGuardar">Guardar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
